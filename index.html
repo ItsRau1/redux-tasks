@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="PT-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestor de Tarefas</title>
+    <link rel="shortcut icon" href="/assets/redux-300x300.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/Montserrat/Montserrat-VariableFont_wght.ttf">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <nav>
+        <a id="logo" href="#logo"><img src="/assets/redux-300x300.png" alt="logomarca da empresa redux estudio"></a>
+        <input type="checkbox" name="checkbox" id="checkbox">
+        <label for="checkbox">
+            <i class="fa fa-bars" id="menu-btn"></i>
+        </label>
+        <ul id="navigation">
+            <li class="navigation-menu"><a href="#logo">Inicio</a></li>
+            <li class="navigation-elements"><a href="#">Servicos</a></li>
+            <li class="navigation-elements"><a href="#">Novidades</a></li>
+            <li class="navigation-elements"><a href="#">Projeto</a></li>
+            <button class="btn-wht-s-b">Contato</button>
+
+        </ul>
+    </nav>
+    <div id="container">
+        <header>
+            <h1>Gestor de tarefas  da redux studio.</h1>
+            <p>O melhor gestor de tarefas do mercardo, use-o livremente, como quiser!</p>
+            <p>E totalmente gratuito, vamos testar?</p>
+            <p>Acesse tam,bem nosso site oficial e aproveite outras ferramentas!</p>
+        </header>
+
+        <section id="new-task">
+        <input type="text" name="insert-task" id="insert-task" placeholder="Aqui vai uma nova tarefa...">
+        <button class="btn-wht-s-b" id="btn-new-task">Adicionar tarefa</button>
+        </section>
+        <div id="task-stats">
+            <span class="task-creat-in" id="task-creat-in">Nenhuma tarefa criada por enquanto</span>
+            <span class="task-del-in" id="task-del-in">Nenhuma tarefa apagada por enquanto</span>
+            <span class="task-end-ind" id="task-end-ind">Nenhuma tarefa finalizada por enquanto</span>
+        </div>
+        <section id="tasks"></section>
+    </div>
+    <script src="/main.js"></script>
+</body>
+</html>
