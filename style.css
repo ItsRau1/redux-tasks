@@ -24,7 +24,7 @@ html {
     background: var(--black-color);
 }
 body {
-    background: linear-gradient(to top,#000 0%, #000 40%, transparent 100%)no-repeat, url(/assets/background-section_title.png) no-repeat;
+    background: linear-gradient(to top,#000 0%, #000 40%, transparent 100%)no-repeat, url(./assets/background-section_title.png) no-repeat;
     background-position-y: top;
     background-position-x: center;
 }
